@@ -1,41 +1,13 @@
-name: pannow
+name: PanNoW
 channels:
   - conda-forge
   - bioconda
   - main
   - defaults
 dependencies:
-  - _openmp_mutex=4.5=7_kmp_llvm
-  - bzip2=1.0.8=hd037594_9
-  - ca-certificates=2026.2.25=hbd8a1cb_0
-  - cd-hit=4.8.1=haf7d672_13
-  - diamond=2.1.24=h0ae40ce_0
-  - libblas=3.11.0=6_h51639a9_openblas
-  - libcblas=3.11.0=6_hb0561ab_openblas
-  - libcxx=22.1.3=h55c6f16_0
-  - libexpat=2.7.5=hf6b4638_0
-  - libffi=3.5.2=hcf2aa1b_0
-  - libgcc=15.2.0=hcbb3090_18
-  - libgfortran=15.2.0=h07b0088_18
-  - libgfortran5=15.2.0=hdae7583_18
-  - liblapack=3.11.0=6_hd9741b5_openblas
-  - liblzma=5.8.3=h8088a28_0
-  - libmpdec=4.0.0=h84a0fba_1
-  - libopenblas=0.3.32=openmp_he657e61_0
-  - libsqlite=3.53.0=h1b79a29_0
-  - libzlib=1.3.2=h8088a28_2
-  - llvm-openmp=22.1.3=hc7d1edf_0
-  - ncurses=6.5=h5e97a16_3
-  - numpy=2.4.3=py314h1569ea8_0
-  - openssl=3.6.2=hd24854e_0
-  - pandas=3.0.2=py314heb7d0cc_0
-  - pip=26.0.1=pyh145f28c_0
-  - prodigal=2.6.3=hba9b596_11
-  - python=3.14.4=h4c637c5_100_cp314
-  - python-dateutil=2.9.0.post0=pyhe01879c_2
-  - python_abi=3.14=8_cp314
-  - readline=8.3=h46df422_0
-  - six=1.17.0=pyhe01879c_1
-  - tk=8.6.13=h010d191_3
-  - tzdata=2025c=hc9c84f9_1
-  - zstd=1.5.7=hbf9d68e_6
+  - cd-hit
+  - diamond
+  - numpy
+  - prodigal
+  - python=3.14.4
+  - readline
