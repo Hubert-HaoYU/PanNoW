@@ -39,4 +39,3 @@ dependencies:
   - tk=8.6.13=h010d191_3
   - tzdata=2025c=hc9c84f9_1
   - zstd=1.5.7=hbf9d68e_6
-prefix: /Users/hao/anaconda3/envs/pannow
